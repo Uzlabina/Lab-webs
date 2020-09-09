@@ -1,0 +1,1 @@
+Krux.ns.amcnetworks.kxjsonp_consent_get_0({"status":400,"body":{"settings":{"dc":0,"al":0,"tg":0,"cd":0,"sh":0,"re":0},"pr":"gdpr","code":"bad_request","source":"unk","errors":{"idv":"no identifier found for user","query":"no user id"}}});

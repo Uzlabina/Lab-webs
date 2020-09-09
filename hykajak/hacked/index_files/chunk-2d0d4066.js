@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d0d4066"],{"5eee":function(n,e,c){"use strict";c.r(e);var t={components:{NnnMusicIcon:c("2885").a}},s=c("2877"),i=Object(s.a)(t,function(){var n=this.$createElement,e=this._self._c||n;return e("div",{staticClass:"c-header__action"},[e("nnn-music-icon")],1)},[],!1,null,null,null);e.default=i.exports}}]);

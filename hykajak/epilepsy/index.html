@@ -1,0 +1,79 @@
+
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link rel="icon" href="favicon.ico">
+<title>Epilepsy!!</title>
+<style>
+html { overflow-y: hidden; overflow-x: hidden; }
+</style>
+<script type="text/javascript">
+myAudio = new Audio('http://lab.uzlabina.cz/~hykajak/epilepsy/unarmed.mp3'); 
+myAudio.addEventListener('ended', function() {
+    this.currentTime = 0;
+    this.play();
+}, false);
+myAudio.play();
+function cvoltonsixpack()
+{
+	var rand = Math.round(Math.random() * 1);
+	var img = "";
+	var mathquestion = "";
+	if (rand == 0) {
+		img = "1.png";
+		mathquestion = "^ tru";
+	} else if (rand == 1) {
+		img = "2.png";
+		mathquestion = "^ fals";
+	}
+	document.body.style.setProperty("-webkit-transform", "rotate(" + (Math.round(Math.random() * 50) - 25) + "deg)", null);
+	document.getElementById("face").src = img;
+	document.getElementById("face").style.left = Math.round(Math.random() * 600) + "px";
+	document.getElementById("face").style.top = Math.round(Math.random() * 100) + "px";
+	document.getElementById("no_u").innerText = mathquestion;
+}
+function nigga()
+{
+	var thingy = Math.round(Math.random() * 200) + 400;
+	document.getElementById("face").style.width = thingy + "px";
+	document.getElementById("face").style.height = thingy + "px";
+}
+function setBackground()
+{
+window.setTimeout("setBackground()", 50);
+
+var index = Math.round(Math.random() * 9);
+
+var ColorValue = "FFFFFF";
+
+if(index == 1)
+ColorValue = "FF00EF";
+if(index == 2)
+ColorValue = "7D32FF";
+if(index == 3)
+ColorValue = "3160E2";
+if(index == 4)
+ColorValue = "00FFFF";
+if(index == 5)
+ColorValue = "FFAB00";
+if(index == 6)
+ColorValue = "00FF00";
+if(index == 7)
+ColorValue = "FFFF00";
+if(index == 8)
+ColorValue = "FF8000";
+if(index == 9)
+ColorValue = "646464";
+if(myAudio.currentTime < 3.2 || (myAudio.currentTime > 4.2 && myAudio.currentTime < 7.0) || (myAudio.currentTime > 8.0 && myAudio.currentTime < 10.8) || (myAudio.currentTime > 11.8 && myAudio.currentTime < 13.2)) {
+	document.getElementsByTagName("body")[0].style.backgroundColor = "#" + ColorValue;
+	cvoltonsixpack();
+	nigga();
+}
+}
+</script>
+</head>
+<body onload="setBackground();">
+<img src="1.png" style="position:relative; left: 400; top: 100;" id="face">
+<center><h1 id="no_u" style="font-size:69px; position: absolute; left: 50%; top:50%;">^ tru</h1></center>
+</body>
+</html>
