@@ -1,14 +1,14 @@
-# Lab-webs
+# ❓ Lab-webs
 Studentský weby na: http://lab.spse.uzlabina.cz/~username/ || http://lab.uzlabina.cz/~username/
 
-# Studenti
+# ⚖️ Studenti
 Jakub Hyka
 
 Jonáš Bureš
 
 
-# License
+# 📜 License
 
-All the code in this repository is released under the **_Mozilla Public License v2.0_**, for more information take a look at the [LICENSE](https://www.mozilla.org/en-US/MPL/2.0/ "Mozilla Public License v2.0") file.
-If any student wants to use a differetn license, it will be listed here:
-#### [hykajak](../master/LICENSE) (GPL-3.0)
+Všechen code v tomto zdroji (repository) je vydán pod the **_GNU General Public License v3.0_**, pro více informací se podívejte na [LICENSE](../master/LICENSE).
+Pokud chce jakýkoliv student použít jinou licensi, bude v tomto seznamu:
+#### [hykajak](https://www.mozilla.org/en-US/MPL/2.0/ "Mozilla Public License v2.0") (MPL-3.0)
